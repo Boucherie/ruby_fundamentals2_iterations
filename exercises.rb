@@ -50,8 +50,14 @@ end #5
 
 #exercise 3
 puts performing_artists[0..1] #1
-movies.each do |movie, year|
+movies.each do |movie, year| #2
   puts "#{movie} came out in #{year}."
 end
 
-puts gen_age.sort!.reverse!  #2
+puts gen_age.sort!.reverse!  #3
+
+movies[:"Beauty and the Beast"] = "1991 and 2017" #4
+
+movies.each do |movie, year| #4
+  puts "#{movie} came out in #{year}."
+end
