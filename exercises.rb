@@ -5,4 +5,20 @@ performing_artists = ["Arcade Fire", "Metric", "July Talk"]
 colors = [:blue, :green, :purple, :red, :grey]
 
 
-definitions = { }
+definitions = {
+    :whatabouts => "things with which one is occupied",
+    :flummery => "anything insipid; empty compliment; humbug",
+    :quadrennial => "lasting four years; occurring once every four years"
+  }
+
+movies = {
+  :"The Fifth Element" => 1997,
+  :"The Hours" => 2002,
+  :"Pacific Rim" => 2013
+}
+
+cities = {
+  Toronto: 2820000,
+  London: 8630000,
+  Tokyo: 9200000
+}
