@@ -61,3 +61,12 @@ movies[:"Beauty and the Beast"] = "1991 and 2017" #4
 movies.each do |movie, year| #4
   puts "#{movie} came out in #{year}."
 end
+
+#exercise 4
+under_34 = gen_age.select {|age| age < 34} #1
+puts under_34
+
+puts gen_age.max #2
+
+heads = coin_flip_heads.count(true)
+puts heads
