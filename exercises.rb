@@ -22,3 +22,9 @@ cities = {
   London: 8630000,
   Tokyo: 9200000
 }
+
+generational_ages = {
+  Jenny: 33,
+  Katie: 35,
+  Steve: 41
+}
