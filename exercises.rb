@@ -31,8 +31,16 @@ generational_ages = {
 }
 
 #exercise 1 no 1-5
-puts coin_flip_heads
-puts colours[0]
-puts gen_age.sort
-gen_age << 0
-puts movies[:"Pacific Rim"]
+puts coin_flip_heads #1
+puts colours[0] #2
+puts gen_age.sort #3
+gen_age << 0 #4
+puts movies[:"Pacific Rim"] #5
+
+#exercise 2 no 1-5
+puts colours[4] #1
+cities[:Munich] = 1400000 #2
+coin_flip_heads.reverse! #3
+#puts coin_flip_heads --- checked in terminal
+puts cities[:Tokyo] #4
+puts "I think #{performing_artists[2]} is great."
