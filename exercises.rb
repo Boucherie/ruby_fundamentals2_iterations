@@ -43,4 +43,10 @@ cities[:Munich] = 1400000 #2
 coin_flip_heads.reverse! #3
 #puts coin_flip_heads --- checked in terminal
 puts cities[:Tokyo] #4
-puts "I think #{performing_artists[2]} is great."
+
+performing_artists.each do |performing_artist| #5
+  puts "I think #{performing_artist} is great."
+end #5
+
+#exercise 3
+puts performing_artists[0..1] #1
