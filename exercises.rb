@@ -104,3 +104,37 @@ end
 
 colours << :yellow << :black #5
 #puts colours
+
+
+#exercise 6a
+moviephone = { #1 plus test
+  1999 => ["The Matrix", "Star Wars: Episode 1", "The Mummy"],
+  2009 => ["Avatar", "Star Trek", "District 9"],
+  2019 => ["How to Train Your Dragon 3", "Toy Story 4", "Star Wars: Episode 9"]
+}
+# puts moviephone
+
+rotary_excepted = [ #2
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  ['*', 0, '#']
+]
+
+countries = [ #3 plus test
+  {name: 'Canada', continent: 'North America', island: false},
+  {name: 'Ireland', continent: 'Europe', island: true},
+  {name: 'Japan', continent: 'Asia', island: true}
+]
+
+#puts countries[0]
+
+# puts rotary_excepted[3]
+
+#exercise 6b
+20.times do #1
+  puts "I will not skateboard in the halls."
+end
+
+detention = Array.new(20, "I will not skateboard in the halls.") #2
+#print detention
