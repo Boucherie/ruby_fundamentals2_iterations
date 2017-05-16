@@ -85,7 +85,7 @@ cities[:London] = 8674000 #5
 #   end
 #   puts sum
 
-puts cities.values.reduce(:+) #1
+puts cities.values.reduce(:+) #1 (above commented loop also no1)
 
 generational_ages.each do |name, age| #2
   if age < 34
@@ -94,3 +94,13 @@ generational_ages.each do |name, age| #2
     puts "#{name} is older."
   end
 end
+
+
+puts colours[3..4] #3
+
+generational_ages.each do |name, age| #4
+  puts "#{name}, #{age + 1}"
+end
+
+colours << :yellow << :black #5
+#puts colours
