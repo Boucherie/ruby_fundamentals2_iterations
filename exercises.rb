@@ -68,5 +68,11 @@ puts under_34
 
 puts gen_age.max #2
 
-heads = coin_flip_heads.count(true)
-puts heads
+heads = coin_flip_heads.count(true) #3 plus test
+#puts heads
+
+performing_artists.delete_at(1) #4 plus test
+#puts performing_artists
+
+cities[:London] = 8674000
+puts cities
