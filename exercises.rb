@@ -50,3 +50,8 @@ end #5
 
 #exercise 3
 puts performing_artists[0..1] #1
+movies.each do |movie, year|
+  puts "#{movie} came out in #{year}."
+end
+
+puts gen_age.sort!.reverse!  #2
