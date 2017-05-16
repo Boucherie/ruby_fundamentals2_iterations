@@ -1,10 +1,11 @@
-colors = ["blue", "green", "purple", "red", "grey"]
+#exercise 0 no1
+colours = ["blue", "green", "purple", "red", "grey"]
 gen_age = [31, 33, 35, 41]
 coin_flip_heads = [true, true, true, true, false]
 performing_artists = ["Arcade Fire", "Metric", "July Talk"]
-colors = [:blue, :green, :purple, :red, :grey]
+colours = [:blue, :green, :purple, :red, :grey]
 
-
+#ecercise 1 no2
 definitions = {
     :whatabouts => "things with which one is occupied",
     :flummery => "anything insipid; empty compliment; humbug",
@@ -28,3 +29,10 @@ generational_ages = {
   Katie: 35,
   Steve: 41
 }
+
+#exercise 1 no 1-5
+puts coin_flip_heads
+puts colours[0]
+puts gen_age.sort
+gen_age << 0
+puts movies[:"Pacific Rim"]
