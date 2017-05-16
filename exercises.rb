@@ -74,5 +74,23 @@ heads = coin_flip_heads.count(true) #3 plus test
 performing_artists.delete_at(1) #4 plus test
 #puts performing_artists
 
-cities[:London] = 8674000
-puts cities
+cities[:London] = 8674000 #5
+#puts cities
+
+#exercise 5
+
+# sum = 0
+# cities.each do |city, population|
+#     sum += population
+#   end
+#   puts sum
+
+puts cities.values.reduce(:+) #1
+
+generational_ages.each do |name, age| #2
+  if age < 34
+    puts "#{name} is younger."
+  else
+    puts "#{name} is older."
+  end
+end
